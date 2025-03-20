@@ -1,0 +1,85 @@
+@import url(reset.css);
+
+.block > p {
+	color: red;
+}
+
+.block ~ p {
+	color: blue;
+}
+
+.block div {
+	color: green;
+}
+
+.block-climate + div {
+	color: purple;
+}
+
+.block-climate {
+	color: crimson;
+}
+
+#red ~ li {
+	color: green;
+}
+
+#red {
+	color: red;
+}
+
+#blue ~ li {
+	color: orange;
+}
+
+#blue {
+	color: blue;
+}
+
+#special ~ li {
+	color: #5d5d5d;
+}
+
+#special {
+	color: #4597f7;
+}
+
+#text {
+	color: #a0f0fc;
+}
+
+.nav-list{
+	color: blue;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.machine {
+	color: gray;
+}
+
+#wheels {
+	color: darkorange;
+}
+
+.text-decoration {
+	color: maroon;
+}
+
+.block-test .test-item {
+	color: pink;
+}
+
+.block-test .item {
+	color: blueviolet;
+}
+
+.dishes * {
+	color: darkorange;
+}
+
+.image {
+	height: 300px;
+}
