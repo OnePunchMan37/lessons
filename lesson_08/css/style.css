@@ -1,0 +1,136 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+
+.wraper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.image-info {
+	background-color: gray;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.img-block {
+	padding: 20px;
+	font-family: "Poppins", serif;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+.img-block > div > h2 {
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.img-block > div > p {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.img-block * {
+	margin-bottom: 5px;
+}
+
+.img-block h2 {
+	margin-bottom: 20px;
+}
+
+.img-block p {
+	margin-bottom: 15px;
+}
+
+.img-block > div > ul {
+	margin-bottom: 7px;
+}
+
+.img-block > div {
+	margin-bottom: 30px;
+}
+
+.img-block .image-raster {
+	margin-bottom: 0;
+}
+
+.img-block *:last-child {
+	margin-bottom: 0;
+}
+
+.img-content {
+	max-width: 900px;
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.img-content:hover {
+	background-color: #3cff0018;
+}
+
+.image-svg img {
+	width: 75px;
+	height: 75px;
+}
+
+.image-svg {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 200px;
+	padding-top: 25px;
+}
+
+.text-info {
+	display: inline-block;
+	max-width: 400px;
+	text-align: center;
+	line-height: 1.2;
+	padding: 5px;
+}
+
+.image-raster {
+	display: inline-block;
+	max-width: 400px;
+	vertical-align: top;
+	margin-right: 40px;
+}
+
+.image-raster-border {
+	border-radius: 27.5% 0 27.5% 0 / 27.5% 0 27.5% 0;
+}
+
+.vector-block {
+	background-color: rgb(92, 92, 92);
+	padding: 20px;
+}
+
+.raster-block {
+	background-color: rgb(92, 92, 92);
+	padding: 20px;
+}
+
+.img-block li:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+}
