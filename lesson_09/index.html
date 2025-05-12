@@ -57,9 +57,13 @@
 			</div>
 			<div class="feautured-products">
 				<div class="feautured-products__container">
-					<div class="feautured-products__section-header section-header">
-						<h2><strong>Featured Products</strong></h2>
-						<a href="#" class="section-header__link-view section-header__link-view--green">View All <img src="img/arow_right.svg" alt="arow right"></a>
+					<div class="feautured-products__section-header header-section">
+						<div class="header-section__big-title">
+							<h2><strong>Featured Products</strong></h2>
+						</div>
+						<div class="header-section__link-view header-section__link-view--green">
+							<a href="#" class="header-section__link-view header-section__link-view--green">View All <img src="img/arow_right.svg" alt="arow right"></a>
+						</div>
 					</div>
 					<div class="feautured-products__column-big big-column">
 						<div class="big-column__items">
@@ -165,20 +169,21 @@
 			</div>
 			<div class="categories">
 				<div class="categories__container">
-					<div class="categories__section-header section-header">
-					<div class="section-header__big-title">
-						<h2><strong>Shop by Top Categories</strong></h2>
+					<div class="categories__section-header header-section">
+					   <div class="header-section__big-title">
+					   	<h2><strong>Shop by Top Categories</strong></h2>
+					   </div>
+					   <div class="header-section__link-view header-section__link-view--green">
+					   	<a href="#">View All <img src="img/arow_right.svg" alt="arow right"></a>
+					   </div>
 					</div>
-					<div class="section-header__link-view section-header__link-view--green">
-						<a href="#">View All <img src="img/arow_right.svg" alt="arow right"></a>
-					</div>
-					<div class="categories__column">
+					<div class="categories__column-section">
 						<a href="#"><img src="img/arow_left_list.svg" alt="arow left list" class="categories__previous-category"></a>
 						<ul>
 							<li>
 								<a href="#" class="categories__link-list">
-									<div class="categories__item">
-										<div class="categories__image">
+									<div class="categories__item-card">
+										<div class="categories__image-card">
 											<img src="img/vegetable.svg" alt="vegetable">
 										</div>
 										<strong>Vegetables</strong>
@@ -188,8 +193,8 @@
 							</li>
 							<li>
 								<a href="#" class="categories__link-list">
-									<div class="categories__item">
-										<div class="categories__image">
+									<div class="categories__item-card">
+										<div class="categories__image-card">
 											<img src="img/fruits.svg" alt="fruits">
 										</div>
 										<strong>Fresh Fruit</strong>
@@ -199,8 +204,8 @@
 							</li>
 							<li>
 								<a href="#" class="categories__link-list">
-									<div class="categories__item">
-										<div class="categories__image">
+									<div class="categories__item-card">
+										<div class="categories__image-card">
 											<img src="img/fish.svg" alt="fish">
 										</div>
 										<strong>Fish</strong>
@@ -210,8 +215,8 @@
 							</li>
 							<li>
 								<a href="#" class="categories__link-list">
-									<div class="categories__item">
-										<div class="categories__image">
+									<div class="categories__item-card">
+										<div class="categories__image-card">
 											<img src="img/meat.svg" alt="meat">
 										</div>
 										<strong>mear</strong>
@@ -221,8 +226,8 @@
 							</li>
 							<li>
 								<a href="#" class="categories__link-list">
-									<div class="categories__item">
-										<div class="categories__image">
+									<div class="categories__item-card">
+										<div class="categories__image-card">
 											<img src="img/soft-drink.svg" alt="soft drink">
 										</div>
 										<strong>Water and Drinks</strong>
@@ -232,8 +237,8 @@
 							</li>
 							<li>
 								<a href="#" class="categories__link-list">
-									<div class="categories__item">
-										<div class="categories__image">
+									<div class="categories__item-card">
+										<div class="categories__image-card">
 											<img src="img/snacks.svg" alt="snacks">
 										</div>
 										<strong>Snacks</strong>
@@ -254,12 +259,14 @@
 					<div class="trust-block__big-foto">
 						<img srcset="img/yong_man_take_apple_1x.avif 1x, img/yong_man_take_apple_2x.avif 2x, img/yong_man_take_apple_3x.avif 3x" src="img/yong_man_take_apple_1x.jpg" alt="yong man take apple">
 					</div>
-					<h2>100% Trusted <br>
-						Organic Food Store</h2>
-					<ul class="trust-block__benefits">
+					<h2 class="trust-block__big-title">
+						100% Trusted <br>
+						Organic Food Store
+					</h2>
+					<ul class="trust-block__benefits-company">
 						<li>
-							<img src="img/check_green.svg" alt="check">
-							<div>
+							<img class="trust-block__image-benefit" src="img/check_green.svg" alt="check">
+							<div class="trust-block__text-benefit">
 								<strong>Healthy & natural food for lovers of healthy food.</strong>
 								<p>
 									Ut quis tempus erat. Phasellus euismod bibendum magna non tristique. 
@@ -268,8 +275,8 @@
 							</div>
 						</li>
 						<li>
-							<img src="img/check_green.svg" alt="check">
-							<div>
+							<img class="trust-block__image-benefit" src="img/check_green.svg" alt="check">
+							<div class="trust-block__text-benefit">
 								<strong>Every day fresh and quality products for you.</strong>
 								<p>
 									Maecenas vehicula a justo quis laoreet. Sed in placerat nibh, a posuere ex. 
