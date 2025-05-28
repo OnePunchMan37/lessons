@@ -80,8 +80,6 @@
 	margin: 5px;
 }
 
-.product-card__link-card {}
-
 .product-card__about-product {
 	color: #4D4D4D;
 	padding: 16px;
@@ -102,8 +100,6 @@
 .product-card__image-rate {
 	display: inline-block;
 }
-
-.product-card__rate-star-link {}
 
 .product-card__add-to-cart-link {
 	position: absolute;
